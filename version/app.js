@@ -4,7 +4,7 @@ app = express();
 var response;
 
 app.get('/', function(req, res) {
-    res.send('This is version 2 of the app.\n');
+    res.send('This is version 3 of the app.\n');
 });
 
 app.listen(8080, function() {
